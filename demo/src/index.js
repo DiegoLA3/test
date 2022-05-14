@@ -130,4 +130,4 @@ function Demo() {
 }
 
 render(<Demo/>, document.querySelector('#demo'))
-root.render(Demo)
+
