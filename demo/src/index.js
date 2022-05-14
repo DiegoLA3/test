@@ -126,8 +126,8 @@ function Demo() {
       <HypernetxWidget {...{nodes, edges}} />
     </Grid>
   </Grid>
-  root.render(Grid);
+ 
 }
 
 render(<Demo/>, document.querySelector('#demo'))
-
+root.render(Demo);
