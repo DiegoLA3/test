@@ -89,28 +89,6 @@ function Demo() {
 
   return <Grid container>
     <Grid item xs={6}>
-      <Typography variant='h3'>hnxwidget Demonstration</Typography>
-      <Typography variant='caption'>
-        GitHub Repository: <a href='https://diegola3.github.io/test/t'>
-          testing testing 123
-        </a>
-      </Typography>
-      <Typography>
-      THIS IS A TEST TO MAKE SURE THIS THING WORKS, IF IT DOES WE CAN MOVE ON TO THE NEXT STUFF      
-      
-      This is hypergraph cheese visualization tool that uses an Euler diagram--nodes
-      are circles and hyper edges are outlines (rubber bands)
-      containing the nodes/circles.
-
-      The input data being visualized in the tool can be edited using
-      the text area on the right. The input is in the same format as the
-      constructor for a <a href='https://github.com/pnnl/hypernetx'>HypernetX</a>
-      object--a dictionary mapping edges to lists of nodes.
-      </Typography>
-      <Typography>
-      what what 
-      </Typography>
-
     </Grid>
     
     <Grid item xs={6}>
