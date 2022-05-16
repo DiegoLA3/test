@@ -9,7 +9,7 @@ import TextField from '@material-ui/core/TextField';
 
 import {HypernetxWidget} from '../../src/'
 
-function App() {
+
 const defaultUserInput = `{
   "0": ["NN", "TH"],
   "1": ["TH", "JV"],
@@ -107,7 +107,5 @@ function Demo() {
   </Grid>
  
 }
-}
-export default App
 render(<Demo/>, document.querySelector('#demo'))
 
